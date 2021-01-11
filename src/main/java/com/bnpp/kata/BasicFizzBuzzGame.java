@@ -2,30 +2,14 @@ package com.bnpp.kata;
 
 public class BasicFizzBuzzGame {
 
-	public Integer normalNumbersReturnSameNumber(Integer i) {
-
-		return i;
-
-	}
-
-	public String multiplesofThreeRturnFizz(Integer i) {
-		if (i % 3 == 0) {
-			return "fizz";
-		}
-		return null;
-	}
-
-	public String multiplesofFiveRturnBuzz(Integer i) {
-		if (i % 5 == 0) {
-			return "buzz";
-		}
-		return null;
-	}
-
-	public String multipleofThreeandFiveReturnFizzBuzz(Integer i) {
+	public String getFizzBuzzScore(int i) {
 		if (i % 15 == 0) {
 			return "fizz buzz";
+		} else if (i % 3 == 0) {
+			return "fizz";
+		} else if (i % 5 == 0) {
+			return "buzz";
 		}
-		return null;
+		return Integer.toString(i);
 	}
 }
