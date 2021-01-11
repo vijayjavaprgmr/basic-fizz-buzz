@@ -21,4 +21,11 @@ public class BasicFizzBuzzGame {
 		}
 		return null;
 	}
+
+	public String multipleofThreeandFiveReturnFizzBuzz(Integer i) {
+		if (i % 15 == 0) {
+			return "fizz buzz";
+		}
+		return null;
+	}
 }
