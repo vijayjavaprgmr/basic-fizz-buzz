@@ -19,4 +19,10 @@ public class BasicFizzBuzzTest {
 		assertThat(basicFissBuzz.multiplesofThreeRturnFizz(123), is("fizz"));
 	}
 
+	@Test
+	public void testMultipleofFiveReturnBuzz() {
+		BasicFizzBuzzGame basicFissBuzz = new BasicFizzBuzzGame();
+		assertThat(basicFissBuzz.multiplesofFiveRturnBuzz(200), is("buzz"));
+	}
+
 }

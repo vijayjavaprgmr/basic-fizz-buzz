@@ -14,4 +14,11 @@ public class BasicFizzBuzzGame {
 		}
 		return null;
 	}
+
+	public String multiplesofFiveRturnBuzz(Integer i) {
+		if (i % 5 == 0) {
+			return "buzz";
+		}
+		return null;
+	}
 }
