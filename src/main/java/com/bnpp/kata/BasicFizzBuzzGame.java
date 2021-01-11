@@ -7,4 +7,11 @@ public class BasicFizzBuzzGame {
 		return i;
 	}
 
+	public String multiplesOfThreeReturnFizz(Integer i) {
+		if (i % 3 == 0) {
+			return "fizz";
+		}
+		return null;
+	}
+
 }

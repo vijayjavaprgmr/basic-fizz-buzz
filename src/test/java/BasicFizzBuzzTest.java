@@ -14,5 +14,13 @@ public class BasicFizzBuzzTest {
 		assertThat(basicFissBuzz.normalNumbersReturnSameNumber(1), is(1));
 
 	}
+	
+	@Test
+	public void testMultiplesOfThreeReturnFizz() {
+
+		BasicFizzBuzzGame basicFissBuzz = new BasicFizzBuzzGame();
+		assertThat(basicFissBuzz.multiplesOfThreeReturnFizz(123), is("fizz"));
+
+	}
 
 }
